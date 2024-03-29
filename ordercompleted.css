@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  h1{
+      font-size:25px;
+  }
+  strong{
+      font-size:15px;
+  }
+  
+  button:hover {
+          background-color: lightpink;
+          color: black;
+  }
+  
+  
+  
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .options {
+    margin-top: 50px;
+  }

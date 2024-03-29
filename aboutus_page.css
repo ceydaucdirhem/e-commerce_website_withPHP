@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(255, 247, 247);
+}
+.section{
+
+    width: 100%;
+}
+.section .container{
+
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.container .title{
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #f28f92;
+    
+}
+.container .title h1:hover{
+
+    color: #c47e80;
+}
+.container .title h1::after{
+
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #f6b2b4;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.content{
+
+    float: left;
+    width: 55%;
+}
+.image-section{
+
+
+    float: right;
+    width: 40%;
+}
+.image-section img{
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.image-section img:hover{
+
+    transform: scale(1.1);
+}
+
+.content .article h3{
+
+    color: #c47e80;
+    font-size: 25px;
+}
+.content .article h3:hover{
+    color: #ecacae;
+}
+.content .article p{
+
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #524f4f;
+}
+.content .article .button{
+
+    margin-top: 50px;
+}
+.content .article .button a{
+
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #ee6c70;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.content .article .button a:hover{
+
+    color: #fff;
+    background-color: #f28f92;
+    transition: 1s ease;
+}
+.container .social{
+
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.container .social i{
+
+    color: #ffff;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #f28f92;
+    margin: 0px 5px;
+}
+.container .social i:hover{
+
+    color: #fff;
+    background-color: #88941e;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+
